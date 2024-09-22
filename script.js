@@ -40,4 +40,9 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 }
 
+navbar.ondblclick = () => {
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.toggle('active');
+}
+
 // MENU ICON JS END
